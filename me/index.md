@@ -14,5 +14,4 @@ Anything that makes me happy :D (Though Python 3 is a favorite)
 Lots and lots of Linux with Windows thrown in occasionaly
 
 # Who designed this blog
-The blog was designed by a person called [Micah Cowell]:
-(http://blog.micahcowell.com) who was nice enough to publish the template under MIT license...
+The blog was designed by a person called [Micah Cowell](http://blog.micahcowell.com) who was nice enough to publish the template under MIT license...
