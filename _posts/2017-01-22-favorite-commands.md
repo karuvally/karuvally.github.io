@@ -5,7 +5,7 @@ title: Some very useful *NIX tools
 
 Linux has no dearth of tools for getting your tasks done. The actual problem is the proliferation of packages that can make it hard for finding the  right tools for the job. Once in a while you come across a gem that makes your life a whole lot easier. Below is a list of gems I collected along my journey through Linux. Hope it will serve you as well.
 
-Midnight Commander [mc]
+Midnight Commander [mc]  
 The quintessential filemanager for Linux, has the two pane styled interface Supports FTP, SSHFS, provides you with plethora of options for tweaking and still starts under half a second.
 
 kill [kill]
