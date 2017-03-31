@@ -3,7 +3,7 @@ layout: post
 title: Remembering the PS/2
 ---
 
-#Introduction
+###Introduction  
 It was my first day at the lab and glancing around I found two IBM blades humming, a beige box and a sweet looking HP Z640. Wait a minute, a beige box! Beige boxes are good :D So I walk towards it, hoping that it is not a crime to fool around computers in this campus (It was a crime in my old college), and to my good fortune, found that it had the words IBM Personal System/2 engraved on the case.  
   
 A real PS/2! I half expected to bump across this thing in a computer museum during some part of my life, but in college! Wow, now that's big :D I tried to pull some of my friends towards it and explain it's significance and they couldn't care less. That's when I decided to do this writeup.  
