@@ -3,12 +3,12 @@ layout: post
 title: Remembering the PS/2
 ---
 
-###Introduction  
+### Introduction  
 It was my first day at the lab and glancing around I found two IBM blades humming, a beige box and a sweet looking HP Z640. Wait a minute, a beige box! Beige boxes are good :D So I walk towards it, hoping that it is not a crime to fool around computers in this campus (It was a crime in my old college), and to my good fortune, found that it had the words IBM Personal System/2 engraved on the case.  
   
 A real PS/2! I half expected to bump across this thing in a computer museum during some part of my life, but in college! Wow, now that's big :D I tried to pull some of my friends towards it and explain it's significance and they couldn't care less. That's when I decided to do this writeup.  
   
-#History
+# History  
 Everything began with the introduction of IBM PC. Though IBM was a giant when it came to big computers, stuff that fortune 500 bought, it had simply no presence in the microcomputer market. During the early 1980s, the microcomputer market was heating up and any observer could tell you that the industry in general was starting to move in that direction. IBM did not wanted to be left behind. A small set of engineers led by Don Estridge began work on a machine, that would become the PC.  
   
 IBM prided in being able to develop its computers using only its in house staff. Once the product was finished, it was delivered and serviced exclusively by the company. This would not work with the PC. For starters, the PC was supposed to be sold and repaired through retail stores. Also,  the microcomputer industry was heating up pretty quickly and if they failed to create a product quickly enough, they could be sitting ducks.  
