@@ -178,3 +178,24 @@ Because you need a command for uncompressing all your zip files created with the
 
 unrar [unrar]  
 Does what the title says.
+
+netdata [netdata]  
+A truly beautiful server monitoring tool that might bring out the child in you
+
+pv [pv]  
+Have a command that displays utter silence? pv to the rescue!
+
+vnstat [vnstat]  
+Know how much data you are consuming? use vnstat. It will also show you how much you might consume at the end of the day and month.
+
+vnstati [vnstati]  
+Gets installed with vnstat and outputs beautiful png images graphically showing your data usage
+
+MPD [mpd]  
+An audio player daemon to which we can connect using several clients. Not interested? read on
+
+YMPD [ympd]  
+A web interface (client) to MPD. Control your audio player from your browser. If you do a bit of web development, this is godsent
+
+lighttpd [lighttpd]  
+Want an extremely lightweight web server? Your search ends here.
