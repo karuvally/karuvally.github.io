@@ -1,6 +1,6 @@
 ---
 layout: post
-title: I bought a JioFi and it has inbuilt IRC Server!
+title: I bought a JioFi with an inbuilt IRC Server!
 ---
 
 I am sometimes accused of being a cheapskate by my friends and I don't defend it often as that statement is not far removed from reality. Anyway, at the end of last academic year, we had cut the broadband connection which served us in the hostel to avoid paying rent during vacation. It meant at the start of this year, I was without a working internet connection and was in the market for a cheap (haa) ISP  
