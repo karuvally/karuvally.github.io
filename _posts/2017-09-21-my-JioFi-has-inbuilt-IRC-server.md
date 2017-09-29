@@ -3,13 +3,13 @@ layout: post
 title: I bought a JioFi with an inbuilt IRC Server!
 ---
 
-I am sometimes accused of being a cheapskate by my friends and I don't defend it often as that statement is not far removed from reality. Anyway, at the end of last academic year, we had cut the broadband connection which served us in the hostel to avoid paying rent during vacation. It meant at the start of this year, I was without a working internet connection and was in the market for a cheap (haa) ISP  
+At the end of last academic year, we had cut the broadband connection which served us in the hostel to avoid paying rent during vacation. It meant at the start of this year, I was without a working internet connection and was in the market for an ISP. 
 
 If you want a cheap internet provider in India, Reliance Jio is hard to beat. They offer high speed 4G internet at very low price. Sadly My phone is not LTE capable and thus I could not just buy a Reliance Jio SIM and insert it into my phone.  
 
 For the first couple of months, I tried using the 3G internet connection of the state run BSNL and had to put up with slow unusable internet. The connection was not expensive, but what is the use of 3G internet if the download speed is around 15 KiB/s? also, the connection came with no additional calling credits, so I still had to shell out extra for making calls. On top of this, the phone routinely refused to connect to the internet, denying me access when I needed it the most. By the end of second month, I finally came to the conclusion that I was simply wasting my money paying for a connection that was serving me no purpose.
 
-Few days after this, my phone started refusing to make calls. I skipped the prospect of buying a phone as it was expensive (ha again). I chose the apparently superior option of buying a JioFi router. The device would allow data transfer upto 1 GB per day in 4G speeds and also allowed unlimited voice calls. But most importantly, it was free for the first six months andi offered a considerably cheap subscription after that. 
+Few days after this, my phone started refusing to make calls. I skipped the prospect of buying a phone as it was expensive. I chose the apparently superior option of buying a JioFi router. The device would allow data transfer upto 1 GB per day in 4G speeds and also allowed unlimited voice calls. But most importantly, it was free for the first six months andi offered a considerably cheap subscription after that. 
 
 I had read from some sites that it was made by an Indian brand called LYF and was expecting a  half baked product. I couldn't have been more wrong. My first impression of the product was how well it was made. The rear cover of the router sits flush with the rest of the product. The matte black plastic body while not extremely solid, has enough quality to take day to day beating and lends the device a minimalist yet smart look. 
 
