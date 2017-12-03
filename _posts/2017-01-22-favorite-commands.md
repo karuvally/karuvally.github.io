@@ -199,3 +199,12 @@ A web interface (client) to MPD. Control your audio player from your browser. If
 
 lighttpd [lighttpd]  
 Want an extremely lightweight web server? Your search ends here.
+
+mps-youtube [mpsyt]  
+Search and play audios of youtube videos right from terminal  
+
+pgrep [pgrep]  
+If you do pgrep "prcess_name", it will return the respective PID... sweet :D  
+
+pkill [pkill]  
+Kill processes using their names, very useful for systems without killall
