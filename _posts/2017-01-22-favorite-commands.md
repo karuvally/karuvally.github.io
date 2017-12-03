@@ -201,10 +201,10 @@ lighttpd [lighttpd]
 Want an extremely lightweight web server? Your search ends here.
 
 mps-youtube [mpsyt]  
-Search and play audios of youtube videos right from terminal  
+Search and stream youtube audio (yeah) right from the terminal
 
 pgrep [pgrep]  
-If you do pgrep "prcess_name", it will return the respective PID... sweet :D  
+Returns the PID of a process. Thats about it.
 
 pkill [pkill]  
 Kill processes using their names, very useful for systems without killall
