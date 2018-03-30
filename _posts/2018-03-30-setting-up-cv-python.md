@@ -3,7 +3,6 @@ layout: post
 title: Setting up OpenCV with Python 2
 ---
 
-# Introduction  
 The first time I tried to use OpenCV on my computer, I had to download the sources of lots of libraries and had to spend the next 12 hours figuring out how to compile them and then get the whole thing to work with Python. Thankfully, a person now trying to use OpenCV now does not have to go through the same ordeal. This is because, precompiled binaries called wheels of the libraries are available for easy installation. In this post, I will show you how.  
 
 # Prerequisites  
@@ -54,10 +53,10 @@ Now we address the elephant in the room. Let us setup OpenCV and some of the ess
     $ pip install opencv-contrib-python # the OpenCV package  
     $ pip install imutils               # convinience functions  
     $ pip install matplotlib            # easily plot the resultant images  
-    $ pip install jupyter               # An easy to use and powerful programming environment
+    $ pip install jupyter               # easy, powerful programming environment
     $ pip install numpy                 # for managing all those image arrays  
 
 # Lets code!  
 If you want an easy to use programming environment for learning OpenCV, you just installed it. We are ofcourse, talking about Jupyter Notebook. To start, do  
     (opencv) $ jupyter notebook  
-If you want some examples to try out, visit https://github.com/karuvally/cv_workshop
+Some easy examples can be found at https://github.com/karuvally/cv_workshop
