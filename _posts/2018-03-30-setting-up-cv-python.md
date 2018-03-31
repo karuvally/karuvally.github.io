@@ -58,5 +58,7 @@ Now we address the elephant in the room. Let us setup OpenCV and some of the ess
 
 # Lets code!  
 If you want an easy to use programming environment for learning OpenCV, you just installed it. We are ofcourse, talking about Jupyter Notebook. To start, do  
+
     (opencv) $ jupyter notebook  
+
 Some easy examples can be found [here](https://github.com/karuvally/cv_workshop)
