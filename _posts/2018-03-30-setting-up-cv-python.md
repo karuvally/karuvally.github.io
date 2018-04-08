@@ -7,6 +7,9 @@ The first time I tried to use OpenCV on my computer, I had to download the sourc
 
 # Prerequisites  
 First of all, make sure your distro is still supported. Linux distributions after the end of their release cycle usually do not allow installing softwares from repositories. That is, you would not be able to use your package manager to install software. So be sure to have a "recent" Linux distribution.  
+Lets start by updating your list of packages  
+
+    $ sudo apt-get update  
 
 With this post, we are dealing with the Python 2 side of things. so make sure it is installed. On Debian derivatives, you can just do  
 
@@ -61,4 +64,7 @@ If you want an easy to use programming environment for learning OpenCV, you just
 
     (opencv) $ jupyter notebook  
 
-Some easy examples can be found [here](https://github.com/karuvally/cv_workshop)
+Some easy examples can be found [here](https://github.com/karuvally/cv_workshop). Once you are done coding, you can quit by presssing "Ctrl + C", then deactivate Virtualenv by running "deactivate" command 
+
+    (opencv) $ deactivate
+
