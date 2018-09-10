@@ -115,4 +115,4 @@ If you want an NTFS drive, make sure to run the mkfs.ntfs command with the "-f" 
     Creating NTFS volume structures.
     mkntfs completed successfully. Have a nice day.
 
-And there you have it. A pendrive ready to be used, at your service.
+And there you have it. Your good old pendrive, ready to be used, at your service.
