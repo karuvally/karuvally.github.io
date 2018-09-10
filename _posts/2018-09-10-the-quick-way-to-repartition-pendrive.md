@@ -100,25 +100,19 @@ Type mkfs and double tap the Tab key. You will be greeted with a view similiar t
     mkfs         mkfs.ext2    mkfs.ext4    mkfs.minix   mkfs.ntfs    mkfs.xfs
     mkfs.cramfs  mkfs.ext3    mkfs.fat     mkfs.msdos   mkfs.vfat
 
-This shows all the partition types mkfs can create. Right now, let us create a
-FAT32 partition. This can be done as follows.
+This shows all the partition types mkfs can create. Right now, let us create a FAT32 partition. This can be done as follows.
 
-[aswin@ThinkPad-L440 ~]$ sudo mkfs.fat /dev/sdb1 -n KARUVALLY
-[sudo] password for aswin:
-mkfs.fat 4.1 (2017-01-24)
+    [aswin@ThinkPad-L440 ~]$ sudo mkfs.fat /dev/sdb1 -n KARUVALLY
+    [sudo] password for aswin:
+    mkfs.fat 4.1 (2017-01-24)
 
-As I have told already, replace sdb with the device name for your specific
-drive. The "-n" switch will apply the string that immediatly follows it as the
-name of the partition. Else, you will be stuck with a drive having a name of
-your favorite UNIX derivative.
+As I have told already, replace sdb with the device name for your specific drive. The "-n" switch will apply the string that immediatly follows it as the name of the partition. Else, you will be stuck with a drive having a name of your favorite UNIX derivative.
 
-If you want an NTFS drive, make sure to run the mkfs.ntfs command with the "-f"
-mode, or it will take an eternity, trying to fill your pendrive with zeroes.
-Also, note that mkfs.ntfs uses the "-L" switch to label the partition.
+If you want an NTFS drive, make sure to run the mkfs.ntfs command with the "-f" mode, or it will take an eternity, trying to fill your pendrive with zeroes. Also, note that mkfs.ntfs uses the "-L" switch to label the partition.
 
-[aswin@ThinkPad-L440 ~]$ sudo mkfs.ntfs /dev/sdb1 -f -L KARUVALLY
-Cluster size has been automatically set to 4096 bytes.
-Creating NTFS volume structures.
-mkntfs completed successfully. Have a nice day.
+    [aswin@ThinkPad-L440 ~]$ sudo mkfs.ntfs /dev/sdb1 -f -L KARUVALLY
+    Cluster size has been automatically set to 4096 bytes.
+    Creating NTFS volume structures.
+    mkntfs completed successfully. Have a nice day.
 
 And there you have it. A pendrive ready to be used, at your service.
