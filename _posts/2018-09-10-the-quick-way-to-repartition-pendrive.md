@@ -62,7 +62,7 @@ Now we have a partition table which can be store information about the partition
        e   extended (container for logical partitions)
     Select (default p):
 
-It now asks you to select between primary and extended partitions. These two types of partitions arose from the early limitations of PC partitioning schemes. To know more, visit this link https://www.tldp.org/LDP/sag/html/partitions.html
+It now asks you to select between primary and extended partitions. These two types of partitions arose from the early limitations of PC partitioning schemes. To know more, visit this [link](https://www.tldp.org/LDP/sag/html/partitions.html)
 
 For now, we can safely continue with primary parition by pressing enter. Once that is done, it will show a screen similar to the one shown below. Here, we will go with the default parition number (ie. 1) by pressing enter
 
