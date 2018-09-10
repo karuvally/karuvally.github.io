@@ -19,4 +19,4 @@ The blog was designed by a person called [Micah Cowell](http://blog.micahcowell.
 
 # Contact
 Feel free to drop in a mail: aswinbabuk [at] gmail [dot] com  
-Better still, you can contact me on LinkedIn: https://in.linkedin.com/in/karuvally 
+Better still, you can contact me on [LinkedIn](https://in.linkedin.com/in/karuvally)
