@@ -17,5 +17,5 @@ Lots and lots of Linux with Windows thrown in occasionaly
 The blog was designed by a person called [Micah Cowell](http://blog.micahcowell.com) who was nice enough to publish the template under MIT license...
 
 # Contact
-Feel free to drop in a mail: aswinbabuk [at] gmail [dot] com 
+Feel free to drop in a mail: aswinbabuk [at] gmail [dot] com  
 Better still, you can contact me on LinkedIn: https://in.linkedin.com/in/karuvally 
