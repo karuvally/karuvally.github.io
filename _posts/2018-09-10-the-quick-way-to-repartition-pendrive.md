@@ -10,24 +10,17 @@ I know quite few of you reading this right now would want to shout "gparted". Bu
 Interested? read on
 
 We are talking about two neat little utitlies, fdisk and mkfs which are shipped
-as part of default packages in most of the linux distributions.
+as part of default packages in most of the linux distributions. Lets just not waste any more time. So here goes the guide...
 
-Lets just not waste any more time. So here goes the guide...
+First of all, just insert the pendrive onto your computer. Open up a terminal and type in the "dmesg" command. If you are on Debian, run the command with sudo. Hopefully, the command will output something like this:
 
-First of all, just insert the pendrive onto your computer
-
-open up a terminal and type in the "dmesg" command. If you are on Debian, run
-the command with sudo.
-
-Hopefully, the command will output something like this:
-
-[67969.823527] sd 5:0:0:0: Attached scsi generic sg2 type 0
-[67969.824417] sd 5:0:0:0: [sdb] 7821312 512-byte logical blocks: (4.00 GB/3.73 GiB)
-[67969.825407] sd 5:0:0:0: [sdb] Write Protect is off
-[67969.825409] sd 5:0:0:0: [sdb] Mode Sense: 43 00 00 00
-[67969.825672] sd 5:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
-[67969.839897]  sdb: sdb1
-[67969.840948] sd 5:0:0:0: [sdb] Attached SCSI removable disk
+    [67969.823527] sd 5:0:0:0: Attached scsi generic sg2 type 0
+    [67969.824417] sd 5:0:0:0: [sdb] 7821312 512-byte logical blocks: (4.00 GB/3.73 GiB)
+    [67969.825407] sd 5:0:0:0: [sdb] Write Protect is off
+    [67969.825409] sd 5:0:0:0: [sdb] Mode Sense: 43 00 00 00
+    [67969.825672] sd 5:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+    [67969.839897]  sdb: sdb1
+    [67969.840948] sd 5:0:0:0: [sdb] Attached SCSI removable disk
 
 see the sdb written inside square brackets? that is your device file. On my
 computer, the newly connected pendrive is registered as /dev/sdb. On your system
