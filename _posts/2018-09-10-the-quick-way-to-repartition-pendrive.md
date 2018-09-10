@@ -3,17 +3,9 @@ layout: post
 title: The quick way to repartition your pendrive  
 ---
 
-If you are a distro hopper or your friend's go-to person for fixing computers, chances are you will end up writing bootable images to your pendrive multiple times per week.
+If you are a distro hopper or your friend's go-to person for fixing computers, chances are you will end up writing bootable images to your pendrive multiple times per week. But how do you reinitialize the partition table of the pendrive once the rescue mission is over?
 
-But how do you reinitialize the partition table of the pendrive once the rescue mission is over?
-
-I know quite few of you reading this right now would want to shout "gparted"
-
-But what if I told you that there is a better way, a way to create parition
-table and format the drives according to your likes without touching GUI?
-
-Even better, what if I told you that, the utilities we are going to make use of
-today come shipped with default packages on most distributions?
+I know quite few of you reading this right now would want to shout "gparted". But what if I told you that there is a better way, a way to create parition table and format the drives according to your likes without touching GUI? Even better, what if I told you that, the utilities we are going to make use of today come shipped with default packages on most distributions?
 
 Interested? read on
 
