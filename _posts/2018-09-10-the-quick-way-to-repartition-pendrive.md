@@ -15,30 +15,20 @@ as part of default packages in most of the linux distributions. Lets just not wa
 First of all, just insert the pendrive onto your computer. Open up a terminal and type in the "dmesg" command. If you are on Debian, run the command with sudo. Hopefully, the command will output something like this:
 
     [67969.823527] sd 5:0:0:0: Attached scsi generic sg2 type 0
-    [67969.824417] sd 5:0:0:0: [sdb] 7821312 512-byte logical blocks: (4.00 GB/3.73 GiB)
+    [67969.824417] sd 5:0:0:0: [sdb] 7821312 512-byte logical blocks: (4.00 GB/3...
     [67969.825407] sd 5:0:0:0: [sdb] Write Protect is off
     [67969.825409] sd 5:0:0:0: [sdb] Mode Sense: 43 00 00 00
-    [67969.825672] sd 5:0:0:0: [sdb] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+    [67969.825672] sd 5:0:0:0: [sdb] Write cache: disabled, read cache: enabled...
     [67969.839897]  sdb: sdb1
     [67969.840948] sd 5:0:0:0: [sdb] Attached SCSI removable disk
 
-see the sdb written inside square brackets? that is your device file. On my
-computer, the newly connected pendrive is registered as /dev/sdb. On your system
-, it can be sdc or sdd depending on the number of secondary storage devices
-connected currently. I am going to continue using the "sdb" filename, but beware
-, it can be different on your system.
+see the sdb written inside square brackets? that is your device file. On my computer, the newly connected pendrive is registered as /dev/sdb. On your system, it can be sdc or sdd depending on the number of secondary storage devices connected currently. I am going to continue using the "sdb" filename, but beware, it can be different on your system.
 
 If you do a "ls /dev/sdb*" you will receive the following output
 
-/dev/sdX  /dev/sdb1 
+    /dev/sdb  /dev/sdb1 
 
-The "/dev/sdb" is our pendrive and sdb1 is the partition on the pendrive. Please
-note that, your pendrive might have more than one parition, and it will be named
-sdb2, sdb3 etc.
-
-When you plug in a removable storage, most distributions make sure they get
-automatically mounted. Before continuing, we have to make sure these partitions 
-are not mounted.
+The "/dev/sdb" is the pendrive and sdb1 is the partition on the pendrive. Please note that, your pendrive might have more than one parition, and it will be named sdb2, sdb3 etc. When you plug in a removable storage, most distributions make sure they get automatically mounted. Before continuing, we have to make sure the said partitions are not mounted.
 
 We can use the "umount" command. Using umount, unmount each parition on the
 pendrive. Here I have only one partition, so a single command does the job for
