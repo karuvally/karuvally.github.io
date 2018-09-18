@@ -3,7 +3,10 @@ layout: post
 title: Setting up OpenCV with Python 3
 ---
 
-The first time I tried to use OpenCV on my computer, I had to download the sources of lots of libraries and had to spend the next 12 hours figuring out how to compile them and then get the whole thing to work with Python. Thankfully, a person now trying to use OpenCV now does not have to go through the same ordeal. This is because, precompiled libraries called wheels are now available for easy installation of OpenCV. In this post, I will show you how.  
+Things change. Half an year ago, I was happy with running OpenCV on Python 2.
+But not anymore. As hard as it is for me to admit, it is time to switch to
+Python 3. So here is my supposedly easy to follow tutorial on setting up OpenCV
+on Python 3.
 
 # Prerequisites  
 First of all, make sure your distro is still supported. Linux distributions after the end of their release cycle usually do not allow installing softwares from repositories. That is, you would not be able to use your package manager to install software. So be sure to have a "recent" Linux distribution.  
