@@ -9,10 +9,12 @@ Python 3. So here is my supposedly easy to follow tutorial on setting up OpenCV
 on Python 3.
 
 # Prerequisites  
-First of all, make sure your distro is still supported. Linux distributions after the end of their release cycle usually do not allow installing softwares from repositories. That is, you would not be able to use your package manager to install software. So be sure to have a "recent" Linux distribution.  
-Lets start by updating your list of packages  
+First of all, get the latest package listings from the repository. If you are
+on Fedora, you can safely skip this. If you are on Debian, do the following.
 
-    $ sudo apt-get update  
+    $ sudo apt-get update
+
+If you are Fedora, you can safely skip this step.
 
 With this post, we are dealing with the Python 2 side of things. so make sure it is installed. On Debian derivatives, you can just do  
 
