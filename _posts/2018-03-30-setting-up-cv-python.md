@@ -30,9 +30,14 @@ On fedora, you can do
 Now we proceed to install Virtualenv.  
 
 # Setting up Virtualenv  
-Virtualenv is a container inside which you can set a Python environment complete with libraries which is independent from the rest of the system. Setting up Virtualenv is worth it, as it won't interfere with the rest of your system and will continue to work after a distro hop. Now that we have pip on our system, installating Virtualenv is as easy as  
+Virtualenv is a container inside which you can set a Python environment complete with libraries which is independent from the rest of the system. Setting up Virtualenv is worth it, as it won't interfere with the rest of your system and will continue to work after a distro hop. Now that we have pip on our system, installating Virtualenv is as easy.
+
+On fedora, do
     
-    $ sudo dnf install python2-virtualenv
+    $ sudo dnf install python2-virtualenv 
+
+If you are on Debian, do
+    $ sudo apt-get install python-virtualenv
 
 Once installed, go to someplace where you want to keep the files for your project. Create a directory for the same and initialize a virtualenv inside the directory. It is done as follows.  
     
