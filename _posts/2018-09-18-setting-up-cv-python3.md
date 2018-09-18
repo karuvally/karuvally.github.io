@@ -14,13 +14,13 @@ on fedora, you can safely skip this. If you are on Debian, do the following.
 
     $ sudo apt-get update
 
-Lets make sure Python 3 is installed. If on Debian, do
+Lets make sure Python 3 and its dev libs are installed. If on Debian, run 
 
-    $ sudo apt-get install python3 
+    $ sudo apt-get install python3 python3-dev
 
 If you are on fedora,  
     
-    $ sudo dnf install python3 
+    $ sudo dnf install python3 python3-devel
 
 Now, let us install the python package manager, more commonly called pip. On
 Debian, you would want to do this,
@@ -34,14 +34,17 @@ On fedora, you can do
 Now we can proceed to install VirtualEnv. 
 
 # Setting up Virtualenv  
-Virtualenv is a container inside which you can set a Python environment complete with libraries which is independent from the rest of the system. Setting up Virtualenv is worth it, as it won't interfere with the rest of your system and will continue to work after a distro hop. Now that we have pip on our system, installating Virtualenv is as easy.
+Virtualenv is a container inside which you can set a Python environment complete
+with libraries which is independent from the rest of the system. Setting up
+Virtualenv is worth it, as it allows us to maintain multiple versions of
+libraries parallely without conflicts. 
 
 On fedora, do
     
-    $ sudo dnf install python2-virtualenv 
+    $ sudo dnf install python3-virtualenv 
 
 If you are on Debian, do
-    $ sudo apt-get install python-virtualenv
+    $ sudo apt-get install python3-venv
 
 Once installed, go to someplace where you want to keep the files for your project. Create a directory for the same and initialize a virtualenv inside the directory. It is done as follows.  
     
