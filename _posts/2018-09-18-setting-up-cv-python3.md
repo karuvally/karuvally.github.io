@@ -46,24 +46,29 @@ On fedora, do
 If you are on Debian, do
     $ sudo apt-get install python3-venv
 
-Once installed, go to someplace where you want to keep the files for your project. Create a directory for the same and initialize a virtualenv inside the directory. It is done as follows.  
+Once installed, go to someplace where you want to keep the files for your
+project. Create a directory for the same and initialize a virtualenv inside
+the directory. It can be done as follows
     
-    $ mkdir opencv  
-    $ cd opencv  
-    $ virtualenv .  
+    $ mkdir opencv 
+    $ cd opencv 
+    $ virtualenv .
 
-To make a virtualenv work for us, we need to activate it. This is done by calling the activate script.  
+To make a virtualenv work for us, we need to activate it. This is done by
+calling the activate script.  
     
     $ source bin/activate  
 
-Once this is properly done, your prompt should change to something that resembles  
+Once this is properly done, your prompt should change to something that
+resembles  
     
     (opencv) $  
 
-Okay. Thats it. Lets move on.  
+That should do it. Let us install the libraries. 
 
 # Installing the libraries
-Now we address the elephant in the room. Let us setup OpenCV and some of the essential packages to make it work for us.  
+Now we address the elephant in the room. Let us setup OpenCV and some of the
+essential packages to make it work for us. 
     
     $ pip install opencv-contrib-python # the OpenCV package  
     $ pip install imutils               # convinience functions  
@@ -72,7 +77,8 @@ Now we address the elephant in the room. Let us setup OpenCV and some of the ess
     $ pip install numpy                 # for managing all those image arrays  
 
 # Lets code!  
-If you want an easy to use programming environment for learning OpenCV, you just installed it. We are ofcourse, talking about Jupyter Notebook. To start, do  
+If you want an easy to use programming environment for learning OpenCV, you just
+installed it. We are ofcourse, talking about Jupyter Notebook. To start, do  
 
     (opencv) $ jupyter notebook  
 
