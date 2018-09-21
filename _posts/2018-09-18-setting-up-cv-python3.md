@@ -43,7 +43,8 @@ On fedora, do
     
     $ sudo dnf install python3-virtualenv 
 
-If you are on Debian, do
+If you are on Debian, do 
+
     $ sudo apt-get install python3-venv
 
 Once installed, go to someplace where you want to keep the files for your
