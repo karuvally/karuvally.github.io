@@ -53,7 +53,7 @@ the directory. It can be done as follows
     
     $ mkdir opencv 
     $ cd opencv 
-    $ virtualenv .
+    $ python3 -m venv .
 
 To make a virtualenv work for us, we need to activate it. This is done by
 calling the activate script.  
