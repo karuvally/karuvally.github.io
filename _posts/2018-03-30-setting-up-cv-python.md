@@ -43,7 +43,7 @@ Once installed, go to someplace where you want to keep the files for your projec
     
     $ mkdir opencv  
     $ cd opencv  
-    $ virtualenv .  
+    $ virtualenv . -p python2 
 
 To make a virtualenv work for us, we need to activate it. This is done by calling the activate script.  
     
