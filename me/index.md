@@ -18,7 +18,7 @@ Lots and lots of Linux with Windows thrown in occasionaly
 The blog was designed by a person called [Micah Cowell](http://blog.micahcowell.com) who was nice enough to publish the template under MIT license...
 
 # Can you be hired?
-Yes, ofcourse! take a look at my [resume](https://github.com/karuvally/cv/raw/master/resume_karuvally.pdf)
+Yes, ofcourse! take a look at my [resume](https://github.com/karuvally/cv/raw/master/karuvally_cv.pdf)
 
 # Contact
 Feel free to drop in a mail: aswinbabuk [at] gmail [dot] com  
