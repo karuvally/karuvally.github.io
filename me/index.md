@@ -23,3 +23,4 @@ Yes, ofcourse! take a look at my [resume](https://github.com/karuvally/cv/raw/ma
 # Contact
 Feel free to drop in a mail: aswinbabuk [at] gmail [dot] com  
 Better still, you can connect with me on [LinkedIn](https://in.linkedin.com/in/karuvally)  
+Here is my [RSA](https://raw.githubusercontent.com/karuvally/karuvally.github.io/master/id_rsa.pub) key
