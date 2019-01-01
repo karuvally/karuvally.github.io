@@ -20,12 +20,10 @@ If you are on Debian or Ubuntu derivates
 
     $ sudo apt-get install git
 
+
 If you are on Fedora/CentOS
 
     $ sudo dnf install git
-
-Just to confirm, type git in the terminal and you will be showered with lots
-of text.
 
 # Creating Github account
 Now lets create a Github account. Github is a web service which uses the git
@@ -33,10 +31,10 @@ protocol to allow upload, download and sharing of our projects. It is perfectly
 possible to use Git without Github. But with Github, all of our code will be
 safely backed up and also makes it easy to share our code with others.
 
-Enough lecturing. Go to https://github.com and create an account. Once that
-is done, create a new repostory (project). A repository is like a directory
-which contains all the source files of a particular project. From now on, we
-are going to call it a repo. Why? because it sounds cool.
+Enough lecturing. Go to [https://github.com](https://github.com) and create an
+account. Once that is done, create a new repostory (project). A repository is
+like a directory which contains all the source files of a particular project.
+From now on, we are going to call it a repo. Why? because it sounds cool.
 
 To start working on the repo, we will have to clone it. Cloning means we are
 creating a local copy of the repo on our computer. This can be done by clicking
@@ -49,11 +47,13 @@ repo and execute
     $ cd /home/user  
     $ git clone the-copied-url  
 
+
 Once thats done, you will see that we now have a new directory with the name
 of the repo. Lets navigate into the directory and create a README file
 
     $ cd new-repo-dir  
     $ touch README.md  
+
 
 We just created a README file, which is used to give a brief introduction of
 the project to anybody who visits our project page on Github. The README is in
@@ -68,11 +68,13 @@ actual commit process.
     $ git add . # here the dot causes git to add all the files in our repo  
     $ git commit -m "the commit message" # let us commit!  
 
+
 At this point, git would have probably interrupted you asking for your name
 and email address. Type it in
 
     $ git config --global user.name "You full name"  
     $ git config --global user.email yourmail@domain.tld  
+
 
 Now lets get back to commiting. Execute the commit command again. See the
 commit message? it gives a very short info on what actually comprises of the
