@@ -1,41 +1,37 @@
-Topics
-------
-* Tips
+---
+layout: post
+title: Git Quickstart 
+---
 
 This is going to be a short and sweet tutorial to get you up and running with
-git.
-
-git is a version control system. A version control system keeps track of file
-changes.
-
-If your current version is not working, you can go back to a specific version
-which worked.
+git. Git is a version control system. A version control system keeps track of
+file changes. If the current version is not working, we can go back to a
+specific version which worked.
 
 If you have ever tried to write a program, you will right away recognize that
-having such a system will immensly ease the development process.
+having such a system will immensly ease the development process. A version
+control system such as git also saves the day when you are working as part of
+a team. But right now, let us concentrate on getting our feet wet :)
 
-A version control system such as git also saves the day when you are working
-as part of a team. But right now, let us concentrate on getting our feet wet :)
-
-
+# Installation
 Installing git is easy.
 
 If you are on Debian or Ubuntu derivates
-    sudo apt-get install git
+
+    $ sudo apt-get install git
 
 If you are on Fedora/CentOS
-    sudo dnf install git
+
+    $ sudo dnf install git
 
 Just to confirm, type git in the terminal and you will be showered with lots
 of text.
 
-
+# Creating Github account
 Now lets create a Github account. Github is a web service which uses the git
-protocol to allow upload, download and sharing of code.
-
-It is perfectly possible to use Git without Github. But with Github, all of
-our code will have a second home and makes it easy for others to get your
-code.
+protocol to allow upload, download and sharing of our projects. It is perfectly
+possible to use Git without Github. But with Github, all of our code will be
+safely backed up and also makes it easy to share our code with others.
 
 Enough lecturing. Go to https://github.com and create an account. Once that
 is done, create a new repostory (project).
@@ -93,6 +89,11 @@ message will be your only way to know what comprises of a commit other than
 ofcourse manually reading the whole source file :D
 
 Once this is done, we can upload the commit to Github. This is called pushing.
-Enter your Github credentials when Git asks for and... it should do the trick.
 
     $ git push
+
+Enter your Github credentials when Git asks for and... it should do the trick.
+
+Git can do lots of awesome stuff. But right now, this will suffice. Learn the
+rest in your own pace when you need it.
+
