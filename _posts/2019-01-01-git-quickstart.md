@@ -20,7 +20,6 @@ If you are on Debian or Ubuntu derivates
 
     $ sudo apt-get install git
 
-
 If you are on Fedora/CentOS
 
     $ sudo dnf install git
@@ -47,13 +46,11 @@ repo and execute
     $ cd /home/user  
     $ git clone the-copied-url  
 
-
 Once thats done, you will see that we now have a new directory with the name
 of the repo. Lets navigate into the directory and create a README file
 
     $ cd new-repo-dir  
     $ touch README.md  
-
 
 We just created a README file, which is used to give a brief introduction of
 the project to anybody who visits our project page on Github. The README is in
@@ -67,7 +64,6 @@ actual commit process.
 
     $ git add . # here the dot causes git to add all the files in our repo  
     $ git commit -m "the commit message" # let us commit!  
-
 
 At this point, git would have probably interrupted you asking for your name
 and email address. Type it in
