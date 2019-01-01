@@ -34,17 +34,14 @@ possible to use Git without Github. But with Github, all of our code will be
 safely backed up and also makes it easy to share our code with others.
 
 Enough lecturing. Go to https://github.com and create an account. Once that
-is done, create a new repostory (project).
+is done, create a new repostory (project). A repository is like a directory
+which contains all the source files of a particular project. From now on, we
+are going to call it a repo. Why? because it sounds cool.
 
-A repository is like a directory which contains all the source files of a
-particular project. From now on, we are going to call it a repo. Why? because
-it sounds cool.
-
-Now, lets clone the repo. Cloning means we are creating a local copy of the
-repo on our computer.
-
-First, click on the "Clone or Download" (green) button on the repo page and
-copy the URL.
+To start working on the repo, we will have to clone it. Cloning means we are
+creating a local copy of the repo on our computer. This can be done by clicking
+on the "Clone or Download" (green) button on the repo page and copying the URL
+to clipboard.
 
 Now open the terminal, navigate to a directory where you want to store the
 repo and execute
