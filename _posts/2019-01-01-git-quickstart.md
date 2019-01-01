@@ -46,51 +46,49 @@ to clipboard.
 Now open the terminal, navigate to a directory where you want to store the
 repo and execute
 
-    cd /home/user
-    git clone the-copied-url
+    $ cd /home/user  
+    $ git clone the-copied-url  
 
 Once thats done, you will see that we now have a new directory with the name
 of the repo. Lets navigate into the directory and create a README file
 
-    cd new-repo-dir
-    touch README.md
+    $ cd new-repo-dir  
+    $ touch README.md  
 
-We just created a README file, which gives a brief introduction of the project
-to visitors of the repo.
-
-The README is in [markdown](https://daringfireball.net/projects/markdown/syntax)
-format, follow the link to learn more.
+We just created a README file, which is used to give a brief introduction of
+the project to anybody who visits our project page on Github. The README is in
+[markdown](https://daringfireball.net/projects/markdown/syntax) format, follow
+the link to learn more.
 
 Now that we created the README, lets commit the file. Commiting is the process
 of registering the changes we have made with git. It consists of two steps.
-
 Adding the file, which causes git to start tracking our file and then the
 actual commit process.
 
-    git add . # here the dot causes git to add all the files in our repo
-    git commit -m "the commit message" # let us commit!
+    $ git add . # here the dot causes git to add all the files in our repo  
+    $ git commit -m "the commit message" # let us commit!  
 
 At this point, git would have probably interrupted you asking for your name
 and email address. Type it in
 
-    $ git config --global user.name "You full name"
-    $ git config --global user.email yourmail@domain.tld
+    $ git config --global user.name "You full name"  
+    $ git config --global user.email yourmail@domain.tld  
 
-Now lets get back to commiting. Execute the commit command again.
-
-See the commit message? it gives a very short info on what actually comprises
-of the commit.
+Now lets get back to commiting. Execute the commit command again. See the
+commit message? it gives a very short info on what actually comprises of the
+commit.
 
 Once you start a serious project, commits will start piling up and the commit
 message will be your only way to know what comprises of a commit other than
 ofcourse manually reading the whole source file :D
 
 Once this is done, we can upload the commit to Github. This is called pushing.
+Enter your Github credentials when Git asks for and... it should do the trick.
 
     $ git push
 
-Enter your Github credentials when Git asks for and... it should do the trick.
-
-Git can do lots of awesome stuff. But right now, this will suffice. Learn the
-rest in your own pace when you need it.
+# Conclusion
+Git can do lots of awesome stuff. But right now, this will suffice. Just
+remember to do small, frequent commits as this will allow you to easily trace
+your code changes.
 
