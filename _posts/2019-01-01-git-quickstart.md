@@ -62,8 +62,12 @@ of registering the changes we have made with git. It consists of two steps.
 Adding the file, which causes git to start tracking our file and then the
 actual commit process.
 
-    $ git add . # here the dot causes git to add all the files in our repo  
-    $ git commit -m "the commit message" # let us commit!  
+    $ git add .   
+
+See that . (dot)? It asks git to add all the files in our directory, sparing
+you from the task of manually adding each file. Next is the commit command.
+
+    $ git commit -m "the commit message"   
 
 At this point, git would have probably interrupted you asking for your name
 and email address. Type it in
