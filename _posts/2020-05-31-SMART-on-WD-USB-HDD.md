@@ -23,6 +23,8 @@ some reason, the default set of arguments won't do for the WD Passport.
 For the longest amount of time, I strongly believed I would have to use WD's
 proprietary Windows application (yikes!) to monitor the disks. But then,
 yesterday, I chanced upon this [page](https://www.smartmontools.org/wiki/Supported_USB-Devices).
+The page has an extensive set of USB devices which the tool supports along with
+special arguments, which might be needed to make them work with smartmontools.
 
 It turns out using the "-d sat" argument would make smartmontools play nice
 with my HDD!
@@ -50,8 +52,6 @@ with my HDD!
     === START OF READ SMART DATA SECTION ===
     SMART overall-health self-assessment test result: PASSED
 
-The page has an extensive set of USB HDDs which the tool supports along with
-special arguments, which might be needed to make them work with smartmontools.
-In hindsight, smartmontools always tried to point me in the right direction,
-asking to pass a value for the "-d" argument, but it is the page which really
-helped me out.
+The -d switch sets the type of our device, without letting smartmontools guess
+on its own. The set of arguments needed for your device can differ, so if you
+own a USB storage device, go look it up in the page!
