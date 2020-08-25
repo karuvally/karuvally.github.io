@@ -2,7 +2,7 @@
 layout: about
 ---
 
-Hi, I am Aswin. Lover of computers, *nix, autos and all things tech.
+Hi, I am Aswin. Lover of computers, *nix, autos and all things tech. 
 I program, read, teach and does some basic I/O, when bored.
 This is my memory dump for all good people to see :)
 
