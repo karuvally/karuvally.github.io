@@ -27,9 +27,22 @@
     Passport.</p>
 
     <p class="code">
-    # I am root<br>
-    csh> This is a shell prompt
+    root@N148P:/home/aswin# smartctl -a /dev/sdb<br>
+    smartctl 6.6 2016-05-31 r4324 [x86_64-linux-4.9.0-3-amd64] (local build)<br>
+    Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org<br>
+    <br>
+    /dev/sdb: Unknown USB bridge [0x1058:0x259f (0x1014)]<br>
+    Please specify device type with the -d option.<br>
+    <br>
+    Use smartctl -h to get a usage summary<br>
     </p>
+
+    <p>For the longest amount of time, I strongly believed I would have to use
+    WD’s proprietary Windows application (yikes!) to monitor the disks. But
+    then, yesterday, I chanced upon <a href="https://www.smartmontools.org/wiki/Supported_USB-Devices">this</a> page.
+    The page has an extensive set of USB devices which the tool supports along
+    with special arguments, which might be needed to make them work with
+    smartmontools.</p>
 
 </body>
 </html>
