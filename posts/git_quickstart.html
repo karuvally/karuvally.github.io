@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aswin Karuvally</title>
+    <link rel="stylesheet" type="text/css" href="/includes/stylesheet.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a> | 
+            <a href="/about.html">About</a> | 
+            <a href="https://github.com/karuvally">GitHub</a>
+        </nav>
+    </header>
+    <h1>Git QuickStart</h1>
+
+    <p>This is going to be a short and sweet tutorial to get you up and running
+    with git. Git is a version control system. A version control system keeps
+    track of file changes. If the current version is not working, we can go
+    back to a specific version which worked.</p>
+
+    <p>If you have ever tried to write a program, you will right away recognize
+    that having such a system will immensly ease the development process. A
+    version control system such as git also saves the day when you are working
+    as part of a team. But right now, let us concentrate on getting our feet
+    wet :)</p>
+
+    <h2>Installation</h2>
+    <p>If you are on a Debian or Ubuntu derivative</p>
+    <p class="code">
+    $ sudo apt-get install git
+    </p>
+
+    <p>If you are on Fedora/CentOS</p>
+    <p class="code">
+    $ sudo dnf install git
+    </p>
+
+    <h2>Creating GitHub account</h2>
+    <p>Now lets create a Github account. Github is a web service which uses the 
+    git protocol to allow upload, download and sharing of our projects. It is
+    perfectly possible to use Git without Github. But with Github, all of our
+    code will be safely backed up and also makes it easy to share our code with
+    others.</p>
+
+    <p>Enough lecturing. Go to <a href="https://github.com">https://github.com</a>
+    and create an account. Once that is done, create a new repostory (project).
+    A repository is like a directory which contains all the source files of a
+    particular project. From now on, we are going to call it a repo. Why? because
+    it sounds cool.</p>
+
+    <p>To start working on the repo, we will have to clone it. Cloning means we
+    are creating a local copy of the repo on our computer. This can be done by
+    clicking on the “Clone or Download” (green) button on the repo page and
+    copying the URL to clipboard.</p>
+
+    <p>Now open the terminal, navigate to a directory where you want to store
+    the repo and execute</p>
+    <p class="code">
+    $ cd /home/user<br>
+    $ git clone the-copied-url<br>
+    </p>
+
+    <p>Once thats done, you will see that we now have a new directory with the
+    name of the repo. Lets navigate into the directory and create a README
+    file</p>
+
+</body>
+</html>
