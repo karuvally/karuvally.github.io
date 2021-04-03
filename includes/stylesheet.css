@@ -9,6 +9,13 @@ body {
 ul {
     list-style-type: circle;
 }
+a {
+    color: #828282; 
+    text-decoration: none;
+}
+nav a {
+    color: #b9462c;
+}
 .code {
     padding: 1em;
     margin: auto;
