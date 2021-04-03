@@ -10,10 +10,11 @@ ul {
     list-style-type: circle;
 }
 .code {
-    padding: 14px;
-    white-space: pre-wrap;
+    padding: 1em;
+    margin: auto;
     word-wrap: break-word;
     border: 1px solid #c9ba9b;
     color: #59402D;
     background-color: #fff3cd;
+    font-size: smaller;
 }
