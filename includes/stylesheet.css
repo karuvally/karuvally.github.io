@@ -6,12 +6,20 @@ body {
     max-width: 72em;
     background: #fefefe;
 }
+h1 {
+    font-weight: normal;
+}
 ul {
     list-style-type: circle;
 }
-a {
+li {
     color: #828282; 
+}
+a {
     text-decoration: none;
+}
+li a{
+    color: #000000; 
 }
 nav a {
     color: #b9462c;
