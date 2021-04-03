@@ -67,6 +67,58 @@
     <p>Once thats done, you will see that we now have a new directory with the
     name of the repo. Lets navigate into the directory and create a README
     file</p>
+    <p class="code">
+    $ cd new-repo-dir<br>
+    $ touch README.md<br>
+    </p>
+
+    <p>We just created a README file, which is used to give a brief
+    introduction of the project to anybody who visits our project page on
+    Github. The README is in <a href="https://daringfireball.net/projects/markdown/syntax">markdown</a>
+    format, follow the link to learn more.</p>
+
+    <p>Now that we created the README, lets commit the file. Commiting is the
+    process of registering the changes we have made with git. It consists of
+    two steps. Adding the file, which causes git to start tracking our file
+    and then the actual commit process.</p>
+    <p class="code">
+    $ git add .<br>
+    </p>
+
+    <p>See that . (dot)? It asks git to add all the files in our directory,
+    sparing you from the task of manually adding each file. Next is the commit
+    command.</p>
+
+    <p class="code">
+    $ git commit -m "the commit message"<br>
+    </p>
+
+    <p>At this point, git would have probably interrupted you asking for your
+    name and email address. Type it in</p>
+    <p class="code">
+    $ git config --global user.name "You full name"<br>
+    $ git config --global user.email yourmail@domain.tld<br>
+    </p>
+
+    <p>Now lets get back to commiting. Execute the commit command again. See
+    the commit message? it gives a very short info on what actually comprises
+    of the commit.</p>
+
+    <p>Once you start a serious project, commits will start piling up and the
+    commit message will be your only way to know what comprises of a commit
+    other than ofcourse manually reading the whole source file :D</p>
+
+    <p>Once this is done, we can upload the commit to Github. This is called
+    pushing. Enter your Github credentials when Git asks for it and… it should
+    do the trick.</p>
+
+    <p class="code">
+    $ git push <br>
+    </p>
+
+    <p>Git can do lots of awesome stuff. But right now, this will suffice.
+    Just remember to do small, frequent commits as this will allow you to
+    easily trace your code changes.</p>
 
 </body>
 </html>
