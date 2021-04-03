@@ -1,6 +1,19 @@
 body {
     font-family: monospace, "Courier New", Courier;
+    color: #000000;
+    padding: 1em;
+    margin: auto;
+    max-width: 72em;
+    background: #fefefe;
 }
 ul {
     list-style-type: circle;
+}
+.code {
+    padding: 14px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1px solid #c9ba9b;
+    color: #59402D;
+    background-color: #fff3cd;
 }
