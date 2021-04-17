@@ -16,6 +16,42 @@
         </nav>
     </header>
     <h1>Setting up OpenCV with Python 3</h1>
+    
+    <p>Things change. Half an year ago, I was happy with running OpenCV
+    on Python 2. But not anymore. As hard as it is for me to admit, it
+    is time to switch to Python 3. So here is my supposedly easy to
+    follow tutorial on setting up OpenCV on Python 3.</p>
+    
+    <h2>Prerequisites</h2>
+    <p>First of all, get the latest package listings from the repository.
+    If you are on fedora, you can safely skip this. If you are on Debian,
+    do the following.</p>
+    <p class="code">
+		$ sudo apt-get update
+	</p>
+    
+    <p>Lets make sure Python 3 and its dev libs are installed. If on
+    Debian, run</p>
+    <p class="code">
+		$ sudo apt-get install python3 python3-dev
+	</p>
+	
+	<p>If you are on fedora,</p>
+    <p class="code">
+		$ sudo dnf install python3 python3-devel
+	</p>
+	
+	<p>Now, let us install the python package manager, more commonly
+	called pip. On Debian, you would want to do this,</p>
+    <p class="code">
+		sudo apt-get install python3-pip
+	</p>
+	
+	<p>On fedora, you can do</p>
+    <p class="code">
+		$ sudo dnf install python3-pip
+	</p>
+	<p>Now we can proceed to install VirtualEnv.</p>
 
 </body>
 </html>

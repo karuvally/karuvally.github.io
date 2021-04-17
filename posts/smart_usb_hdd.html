@@ -26,9 +26,9 @@
     for some reason, the default set of arguments won’t do for the WD
     Passport.</p>
     <p class="code">
-    root@N148P:/home/aswin# smartctl -a /dev/sdb<br>
-    smartctl 6.6 2016-05-31 r4324 [x86_64-linux-4.9.0-3-amd64] (local build)<br>
-    Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org<br>
+		root@N148P:/home/aswin# smartctl -a /dev/sdb<br>
+		smartctl 6.6 2016-05-31 r4324 [x86_64-linux-4.9.0-3-amd64] (local build)<br>
+		Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org<br>
     <br>
     /dev/sdb: Unknown USB bridge [0x1058:0x259f (0x1014)]<br>
     Please specify device type with the -d option.<br>
@@ -46,28 +46,28 @@
     <p>It turns out using the “-d sat” argument would make smartmontools play
     nice with my HDD!</p>
     <p class="code">
-    root@N148P:/home/aswin# smartctl -a -d sat /dev/sdb<br>
-    smartctl 6.6 2016-05-31 r4324 [x86_64-linux-4.9.0-3-amd64] (local build)<br>
-    Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org<br>
-    <br>
-    === START OF INFORMATION SECTION ===<br>
-    Model Family:     Western Digital Elements / My Passport (USB, AF)<br>
-    Device Model:     WDC WD10JMVW-11AJGS4<br>
-    Serial Number:    WD-WX71A76JAR7T<br>
-    LU WWN Device Id: 5 0014ee 6b18facb5<br>
-    Firmware Version: 01.01A01<br>
-    User Capacity:    1,000,171,332,096 bytes [1.00 TB]<br>
-    Sector Sizes:     512 bytes logical, 4096 bytes physical<br>
-    Rotation Rate:    5400 rpm<br>
-    Device is:        In smartctl database [for details use: -P show]<br>
-    ATA Version is:   ACS-2 (minor revision not indicated)<br>
-    SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)<br>
-    Local Time is:    Sun May 31 19:26:13 2020 IST<br>
-    SMART support is: Available - device has SMART capability.<br>
-    SMART support is: Enabled<br>
-    <br>
-    === START OF READ SMART DATA SECTION ===<br>
-    SMART overall-health self-assessment test result: PASSED<br>
+		root@N148P:/home/aswin# smartctl -a -d sat /dev/sdb<br>
+		smartctl 6.6 2016-05-31 r4324 [x86_64-linux-4.9.0-3-amd64] (local build)<br>
+		Copyright (C) 2002-16, Bruce Allen, Christian Franke, www.smartmontools.org<br>
+		<br>
+		=== START OF INFORMATION SECTION ===<br>
+		Model Family:     Western Digital Elements / My Passport (USB, AF)<br>
+		Device Model:     WDC WD10JMVW-11AJGS4<br>
+		Serial Number:    WD-WX71A76JAR7T<br>
+		LU WWN Device Id: 5 0014ee 6b18facb5<br>
+		Firmware Version: 01.01A01<br>
+		User Capacity:    1,000,171,332,096 bytes [1.00 TB]<br>
+		Sector Sizes:     512 bytes logical, 4096 bytes physical<br>
+		Rotation Rate:    5400 rpm<br>
+		Device is:        In smartctl database [for details use: -P show]<br>
+		ATA Version is:   ACS-2 (minor revision not indicated)<br>
+		SATA Version is:  SATA 3.0, 3.0 Gb/s (current: 3.0 Gb/s)<br>
+		Local Time is:    Sun May 31 19:26:13 2020 IST<br>
+		SMART support is: Available - device has SMART capability.<br>
+		SMART support is: Enabled<br>
+		<br>
+		=== START OF READ SMART DATA SECTION ===<br>
+		SMART overall-health self-assessment test result: PASSED<br>
     </p>
 
     <p>The -d switch sets the type of our device, without letting smartmontools
