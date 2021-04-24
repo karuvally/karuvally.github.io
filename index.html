@@ -1,31 +1,31 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Aswin Karuvally</title>
+    <link rel="stylesheet" type="text/css" href="/includes/stylesheet.css">
+</head>
 
-<div class="header">
-    <h1>{{ site.name }}</h1>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html">Home</a> | 
+            <a href="/about.html">About</a> | 
+            <a href="https://github.com/karuvally">GitHub</a>
+        </nav>
+    </header>
+
     <ul>
-        {% for item in site.data.navigation %}
-        <li>
-            <a href="{{ item.url }}">{{ item.title }}</a>
-        </li>
-        {% endfor %}
+        <li>2020 May 31  - <a href="/posts/smart_usb_hdd.html">SMART on a WD USB HDD</a></li>
+        <li>2019 Jan 01  - <a href="/posts/git_quickstart.html">Git QuickStart</a></li>
+        <li>2018 Sep 18  - <a href="/posts/opencv_python3.html">Setting up OpenCV with Python 3</a></li>
+        <li>2018 Sep 10  - <a href="/posts/repartition_usb.html">The quick way to repartition your pendrive</a></li>
+        <li>2018 Mar 30  - <a href="/posts/opencv_python2.html">Setting up OpenCV with Python 2</a></li>
+        <li>2017 Sep 21  - <a href="/posts/jiofi_irc.html">I bought a JioFi with an inbuilt IRC Server!</a></li>
+        <li>2017 Mar 31  - <a href="/posts/remembering_ps2.html">Remembering the PS/2</a></li>
+        <li>2017 Jan 22  - <a href="/posts/unix_tools.html">Some very useful *NIX tools</a></li>
+        <li>2017 Dec 07  - <a href="/posts/fixing_alsa.html">Fixing ALSA once and for all</a></li>
     </ul>
-</div>
-<div class="blog">
-    <h1>Blog Posts:</h1>
-    <ul>
-        {% for post in site.posts %}
-        <li>
-            <span class="date">{{ post.date | date: '%Y %b %d' }}</span> - <a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
-        {% endfor %}
-    </ul>
-</div>
-<!--
-<div class="music">
-    <h1>Now Playing:</h1>
-    <a href="http://www.last.fm/user/getmicah"><span id="nowPlaying"></span></a>
-</div>
-<script src="/assets/js/main.js"></script>
--->
+</body>
+</html>

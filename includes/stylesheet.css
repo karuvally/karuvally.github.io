@@ -1,0 +1,36 @@
+body {
+    font-family: monospace, "Courier New", Courier;
+    color: #000000;
+    padding: 1em;
+    margin: auto;
+    max-width: 72em;
+    background: #fefefe;
+}
+h1, h2 {
+    font-weight: normal;
+}
+ul {
+    list-style-type: circle;
+}
+li {
+    color: #828282; 
+}
+a {
+    color: #1168cc;
+    text-decoration: none;
+}
+li a{
+    color: #4e3620; 
+}
+nav a {
+    color: #b9462c;
+}
+.code {
+    padding: 1em;
+    margin: auto;
+    word-wrap: break-word;
+    border: 1px solid #c9ba9b;
+    color: #59402D;
+    background-color: #fff3cd;
+    font-size: smaller;
+}
