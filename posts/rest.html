@@ -27,7 +27,24 @@
     API is said to be RESTful, if it follows the REST guidelines.</p>
     
     <p>What does the name even mean?<br>
+    I found the best explanation to this question over <a href="xfront.com/REST-Web-Services.html">here</a>.
+    It boils down to this. A client requests a resource from a server
+    (eg. CPU temperature of the server). The server then responds by
+    sending back a representation of the resource that can be understood
+    by the client. In the case of REST, the response should be textual in
+    nature. In the above example (CPU temp), the server simply responds
+    with a temperature value (eg. 50C). If the client requests an image,
+    the server will respond with a URL (still text :D) leading to the
+    image. Now, when a client recieves a representation from the server,
+    the state of the client changes. That is, if a client requests for an
+    image and receives the repsresentation (URL) leading to the image, it
+    puts the client in a new state. It doesn't matter what the client
+    does with the image, what matters is the fact that the client has a
+    representation (URL) of the resource (image). Likewise, the client's
+    state will keep changing for each subsequent request and response. In
+    other words, the state of the client transfers
     </p>
 
 </body>
 </html>
+
