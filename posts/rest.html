@@ -45,7 +45,19 @@
     and response. Thus the name.</p>
     
     <p>An example, please?<br>
+    Let's say we have an application, which monitors the health of a server.
+    In this scenario, the application would be the client and the server
+    would be, well, the server. Let's assume the server is available through
+    the IP "192.168.1.2". To get the uptime of the host, the client could
+    retrieve the URL "http://192.168.1.2/uptime" (this by the way is an
+    HTTP GET method). The server could then respond with something like
+    this (usually using HTTP POST method).</p>
+    <p class="code">
+    {<br>
+	&nbsp;&nbsp;"uptime_sec": 1223463<br>
+	}
     </p>
+    
     
     <p>How to get started with REST?<br>
     Far wiser people have written countless articles on getting started
